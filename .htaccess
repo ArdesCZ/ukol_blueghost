@@ -1,0 +1,9 @@
+Options All -Indexes
+
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteRule upravaKontaktu/(.*)/ conf/upravaKontaktu.php?id=$1
+RewriteRule upravaKontaktu/(.*) conf/upravaKontaktu.php?id=$1   
+
